@@ -1,6 +1,5 @@
-schweizerische_theatersammlung
-==============================
+Linked Schweizerische Theatersammlung
 
-Schweizerische Theatersammlung 
+This is the repository for code, data sets and documentation of the Linked Schweizerische Theatersammlung project. The project will provide the data from the Swiss Theatre Collection as Linked Data.
 
-Project web site
+http://www.theatersammlung.ch
