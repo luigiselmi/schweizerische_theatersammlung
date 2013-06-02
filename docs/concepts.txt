@@ -1,0 +1,25 @@
+
+Theatre type Institution (Organization), Building
+	theatrecode (
+
+
+
+Il nome del teatro (istituzione) puo cambiare nel tempo. L'identificativo non cambia. L'ultimo nome è quello valido gli altri sono storici.
+Un teatro puo termire l'attività ma un altro puo iniziare come successore con un altro identificativo.
+
+Spielort=place of the representation (event) contains the institution name and place name 
+
+representation/Show/Performance/
+
+
+Director: is a role in a Theatre Institution
+when you have more than one name separeted by / there have been more than one
+
+Author= name of author of the work that is played. One author lastname, name Two or more
+lastname, name; name lastname; name lastname
+
+When the work is not a a theatre work (like Othello) but is based on a work like a book the field start with 
+00 (nach <author name>)
+
+Titel (title of the work). <title> [language].<subtitle>.<description>
+description is a text field that contains names of authors that will be linked in a second phase. 

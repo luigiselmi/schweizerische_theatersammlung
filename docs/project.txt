@@ -1,0 +1,66 @@
+Start point
+
+Bern theatres
+first excel: data about Stadt Theatre (one theatre), contains all the fields, more than 100 years of data about the same theatre.
+
+building the knowledge base from the source file: 
+- finding the ontologies, 
+- mapping fields in the data source to terms in ontology. 
+- URI design per le entità: Persone, Teatri, Rappresentazioni etc. Dereferenziabilità (tool: Pubby http://wifo5-03.informatik.uni-mannheim.de/pubby/)
+- disambiguation/reconciliation 
+- populating the ontology
+- storing the RDF data into a RDF triple store
+- set up a sparql endpoint
+
+- Interlinking (finding trusted repositories to provide data, set up a reconciliation service on top of the knowledge base)
+- mapping, two ways:
+	1) use openrefine and the RDF extension
+	2) use an XSLT transformation
+
+- disambiguation, two ways:
+	1) based on a reconciliation service (OpenRefine Reconciliation Service)
+	2) based on SILK and a SPARQL endpoint
+	
+	Maybe both could be supported. The first could be based on Stanbol.
+
+- user interfaces for administrators and users
+-- Adding new data 
+	--batch procedure Based on Refine (add an autocompletion function).
+        --add new data from a user interfaces with autocompletion
+	 
+
+- set up a server (ask for an account on a server provided by bfh like vmyuki)
+- components to set up an RDF Store  
+
+- set up a github repository for code and datasets
+
+
+
+-- Evaluation of the effort for the mapping
+
+--selection of ontologies or building a new ontology. MusicBrainz for persons and roles, Performances. covers everything but places and institutiuons. 
+MusicBrainz web site is fine also for its UIs for users who want to make search and those who have the rights to add/update data  
+MusicBrainz has a source code with GPL license for the source code. chabreyflint is the account.
+VIAF web site Virtual International Authority File
+Swiss National Library (vedere se possibile linkare entita autori dal loro sito)
+IBDB International broadway Database: vedere la struttura dei teatri. utili i termini per le performances, show che non sono sono trattate in MusicBrainz
+
+Attendo email con attach il file contenete i dati dei teatri con il nome e con i direttori succeduti nel tempo. 
+
+the next meeting will be within the 1st week of June
+
+What about multimedia content ? (see LMF)
+
+Similar relevant project:
+http://britishart.yale.edu/collections/using-collections/technology/linked-open-data
+Europeana http://pro.europeana.eu/linked-open-data
+Library of Congress Linked Data Service http://id.loc.gov/
+BBC Linked Data Platform
+
+
+License: which license they want to apply 
+Data: how many files about performances like that for Bern Stadt Theater do they have and how many records ? To guess the size 
+of the triple store
+
+
+OpenRefine extension ?
