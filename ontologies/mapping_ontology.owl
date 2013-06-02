@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ssm="http://swrl.stanford.edu/ontologies/ssm/1.0/ssm.owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns="http://www.sharesemantics.com/ont/Ontology1369070135.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.sharesemantics.com/ont/Ontology1369070135.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://swrl.stanford.edu/ontologies/ssm/1.0/ssm.owl"/>
+  </owl:Ontology>
+  <ssm:ClassMap rdf:ID="ClassMap_2">
+    <ssm:hasStartColumn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >K</ssm:hasStartColumn>
+    <ssm:hasFinishRow rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1</ssm:hasFinishRow>
+    <ssm:hasComment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Director superclass</ssm:hasComment>
+    <ssm:hasFinishColumn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >K</ssm:hasFinishColumn>
+    <ssm:hasSourceSheetName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rep_Bern</ssm:hasSourceSheetName>
+    <ssm:hasTypeExpression rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Class: @** SubClassOf: Person</ssm:hasTypeExpression>
+    <ssm:hasStartRow rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1</ssm:hasStartRow>
+  </ssm:ClassMap>
+  <ssm:ClassMap rdf:ID="ClassMap_1">
+    <ssm:hasFinishColumn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >K</ssm:hasFinishColumn>
+    <ssm:hasFinishRow rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >10</ssm:hasFinishRow>
+    <ssm:hasComment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Director class population</ssm:hasComment>
+    <ssm:hasTypeExpression rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Individual: @** Types: @K1</ssm:hasTypeExpression>
+    <ssm:hasSourceSheetName rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rep_Bern</ssm:hasSourceSheetName>
+    <ssm:hasStartColumn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >K</ssm:hasStartColumn>
+    <ssm:hasStartRow rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >2</ssm:hasStartRow>
+  </ssm:ClassMap>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 649)  http://protege.stanford.edu -->

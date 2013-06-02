@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns="http://www.sharesemantics.com/ont/theatre.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.sharesemantics.com/ont/theatre.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Building">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Building</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Person">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Event">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Event</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Direktion"/>
+  <owl:Class rdf:ID="MM_CLASS_4">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Direktion</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Person"/>
+  </owl:Class>
+  <MM_CLASS_4 rdf:ID="MM_INDIVIDUAL_5">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Person: director of the Institution</rdfs:label>
+  </MM_CLASS_4>
+  <MM_CLASS_4 rdf:ID="MM_INDIVIDUAL_6">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Georg Kiedaisch</rdfs:label>
+  </MM_CLASS_4>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 649)  http://protege.stanford.edu -->
